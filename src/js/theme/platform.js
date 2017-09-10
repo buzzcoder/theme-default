@@ -2,7 +2,7 @@ var $ = require('jquery');
 
 module.exports = {
     isMobile: function() {
-        return ($(document).width() <= 600);
+        return ($(document).width() < 800);
     },
     // Breakpoint for navigation links position
     isSmallScreen: function() {
